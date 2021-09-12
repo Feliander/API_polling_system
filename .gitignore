@@ -1,1 +1,4 @@
 .idea/
+User_polling_system/User_polling_system/__pycache__/
+User_polling_system/main_app/__pycache__/
+User_polling_system/main_app/migrations/__pycache__/
