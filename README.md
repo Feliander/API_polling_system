@@ -1,21 +1,21 @@
 # API_polling_system
 Polling system by DRF
 
-##URIs:
+## URIs:
 
 Доступные всем:
 
-/api-auth/login/ - browsable authorization
-/active-pollings/ - список всех активных опросов
+- /api-auth/login/ - browsable authorization
+- /active-pollings/ - список всех активных опросов
 
 Доступные только администратору:
 
-/pollings/ - полный список опросов
-/polling/<int:pk>/ - детали опроса
-/questions/ - список вопросов
-/question/<int:pk>/ - детали вопроса
-/choices/ - список вариантов ответов
-/choice/<int:pk>/ - детали варианта ответа
+- /pollings/ - полный список опросов
+- /polling/<int:pk>/ - детали опроса
+- /questions/ - список вопросов
+- /question/<int:pk>/ - детали вопроса
+- /choices/ - список вариантов ответов
+- /choice/<int:pk>/ - детали варианта ответа
 
 ## Архитектура БД
 
@@ -40,6 +40,7 @@ Polling system by DRF
 - question(many to one).
 
 P.S.
+
 Не понял как сделать авторизацию без регистрации. Поэтому, нет таких URI как: прохождение опроса и показ пройдённых опросов.
 
 
